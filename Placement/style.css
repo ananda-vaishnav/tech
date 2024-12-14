@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bdy{
+    background-image: url(bglogin.jpg);
+}
+.container{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      margin: 0;
+}
+.login-div{
+   
+  background-color: rgba(169, 169, 169, 0.692);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 35vh;
+  width: 50vh;
+  border-radius: 7%;
+}
+.login-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+    color: aliceblue;
+    
+}
+.input-div{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+}
+.input-password{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+------------vendor----------------
+
+.vendor-nav-bar{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 15vh;
+      width: 100%;
+      background-color: orangered;
+}
+.vendor-section{
+    display: flex;
+      justify-content: center;
+      
+      padding-top: 30vh;
+}
+
+------------usersignup----------------
+.user-signup-bdy{
+
+}
+
+.user-signup-container{
+    display: flex;
+      justify-content: center;
+      background-color: rgb(165, 165, 165);
+      height: 60vh;
+      width: 90vh;
+      margin-left: 60vh;
+      margin-top: 24vh;
+      
+}
+.chartbtn{
+    margin-top: 5vh;
+}
+.backbtn{
+    margin-left: 50vh;
+    margin-top: 5vh;
+}
+.signup-nav-bar{
+    background-color: rgb(91, 155, 213);
+   
+    
+}
+
+--------------Admin signup page ------------
+.box{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+   background-color: darkgray; 
+}
+
+
+
+

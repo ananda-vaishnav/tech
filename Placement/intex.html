@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Event Management</title>
+</head>
+<body class="bdy">
+    <div class="container">
+        <form id="loginForm">
+        <div class="login-div">
+            <div class="login-text">
+
+                <h1>Login</h1>
+
+            </div>
+            <div class="input-div" >
+                <h2 style="color: aliceblue;">
+                    User ID:
+                   
+                </h2>
+                <div style="padding-left: 30px;"><input type="text" style="height: 3.5vh; border-radius: 4px; background-color: rgba(240, 248, 255, 0.582);" id="username" placeholder="Username" required></div>
+                    
+                
+                
+            </div>
+            <div class="input-password">
+                <h2 style="color: aliceblue;">
+                    Password:   
+                </h2>
+                <div style="padding-left: 10px;"><input type="password" style="height: 3.5vh; border-radius: 4px; background-color: rgba(240, 248, 255, 0.582);" id="password" placeholder="Password" required></div>
+
+            </div>
+            <div style="padding-left: 30vh;">
+                <a href="signup.html">Sign up</a>
+            </div>
+            <div style="padding-left: 30vh;">
+                <a href="Forget password">Forget Password</a>
+            </div>
+            
+            <div class="btn">
+            
+            
+            <div style="padding-left: 10px;">
+                <button style="height: 6vh; width: 15vh; color: white; background-color: orangered; border-radius: 10px; font-size: medium;" type="submit"> Login </button>
+
+            </div>
+                
+                
+                
+
+            </div>
+                     
+
+        </div>
+    </form>
+
+    </div>
+    </div>
+    <script>
+    document.getElementById('loginForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+    
+        const username = document.getElementById('username').value.trim();
+          const password = document.getElementById('password').value.trim();
+    
+          if (username === 'admin' && password === 'admin') {
+            window.location.href = 'admin.html';
+        } else if (username === 'user' && password === 'user') {
+            window.location.href = 'user.html';
+        } 
+        else if (username === 'vendor' && password === 'vendor') {
+            window.location.href = 'vendor.html';
+        }
+        else {
+            alert('Invalid username or password');
+          }
+        });</script>
+</body>
+</html>

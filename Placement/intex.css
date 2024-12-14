@@ -1,0 +1,21 @@
+---------------user portal page ---------
+.user-body{
+    
+
+}
+.user-portol-container{
+    display: flex;
+      justify-content: center;
+      
+   background-color: darkgray;
+   height: 60vh;
+   width: 80vh;
+   margin-left: 450px;
+   margin-top: 150px;
+
+}
+.usrportaltxt{
+    background-color: rgb(5, 116, 243);
+    height: 5vh;
+    width: 50vh;
+}
